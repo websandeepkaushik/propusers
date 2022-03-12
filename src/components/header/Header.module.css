@@ -1,0 +1,25 @@
+.header {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  height: 78px;
+}
+
+.header:global(.bg-dark) {
+  background-color: #515256!important;
+}
+
+.header :global(.navbar-brand img) {
+  height: 55px;
+}
+
+.menu a {
+  color: #FFF;
+  display: inline-block;
+  padding: 26px 5px;
+  margin: 0 10px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.menu a:hover {
+  border-color: #f2be1a;
+}
